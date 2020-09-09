@@ -1,0 +1,75 @@
+.communication-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.nav-bar {
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid silver;
+}
+
+#settings-button {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+  margin: 8px 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #c4b1ab;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 4px);
+  transform: rotate(-45deg) translate(-6px, 4px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -5px);
+  transform: rotate(45deg) translate(-7px, -5px);
+}
+
+.profile-button {
+  width: 40px;
+  height: 40px;
+  margin: 8px 10px;
+  border: none;
+  background-color: transparent;
+  display: grid;
+  place-content: center;
+  object-fit: cover;
+}
+
+.current-user-avatar {
+    width: 30px;
+  height: 30px;
+  border: 1px solid silver;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.main {
+  grid-row: 1fr;
+}
+
+.footer {
+  grid-row: 1fr;
+}
