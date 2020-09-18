@@ -3,7 +3,9 @@ import "./UserStamp.css";
 
 const UserStamp = () => {
   return (
-    <div className="user-stamp-container">USER STAMP</div>
+    <div className="user-stamp-container">
+      USER STAMP
+    </div>
   );
 };
 

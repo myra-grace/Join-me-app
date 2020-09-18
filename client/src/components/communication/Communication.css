@@ -68,6 +68,16 @@
 
 .main {
   grid-row: 1fr;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.map-container-com {
+  grid-row: 1fr;
+}
+
+.friends-container-com {
+  grid-row: 1fr;
 }
 
 .footer {
