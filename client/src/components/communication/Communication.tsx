@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Communication.css";
 import MapComp from "./map/MapComp";
-import Friends from "./userstamp/friends/Friends";
+import UserStamp from "./userstamp/UserStamp";
 
 const Communication = () => {
   const [title, setTitle] = useState<string | null | undefined>("Friends");
@@ -60,10 +60,10 @@ const Communication = () => {
             // let id = 
           }) 
           return (
-            <Friends />
+            <UserStamp />
           );
           } */}
-          <Friends />
+          <UserStamp />
         </div>
       </div>
       <div className="footer">footer</div>
